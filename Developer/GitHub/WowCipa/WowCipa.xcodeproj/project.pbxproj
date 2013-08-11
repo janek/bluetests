@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F118DAE16BB1C1D0057392C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F118DAD16BB1C1D0057392C /* UIKit.framework */; };
+		9F118DB016BB1C1D0057392C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F118DAF16BB1C1D0057392C /* Foundation.framework */; };
+		9F118DB216BB1C1D0057392C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F118DB116BB1C1D0057392C /* CoreGraphics.framework */; };
+		9F118DB816BB1C1D0057392C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F118DB616BB1C1D0057392C /* InfoPlist.strings */; };
+		9F118DBA16BB1C1D0057392C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F118DB916BB1C1D0057392C /* main.m */; };
+		9F118DBE16BB1C1D0057392C /* WOWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F118DBD16BB1C1D0057392C /* WOWAppDelegate.m */; };
+		9F118DC016BB1C1D0057392C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F118DBF16BB1C1D0057392C /* Default.png */; };
+		9F118DC216BB1C1D0057392C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F118DC116BB1C1D0057392C /* Default@2x.png */; };
+		9F118DC416BB1C1D0057392C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F118DC316BB1C1D0057392C /* Default-568h@2x.png */; };
+		9F118DC716BB1C1D0057392C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F118DC516BB1C1D0057392C /* MainStoryboard.storyboard */; };
+		9F118DCA16BB1C1D0057392C /* WOWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F118DC916BB1C1D0057392C /* WOWViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F118DA916BB1C1D0057392C /* WowCipa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WowCipa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F118DAD16BB1C1D0057392C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F118DAF16BB1C1D0057392C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F118DB116BB1C1D0057392C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F118DB516BB1C1D0057392C /* WowCipa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WowCipa-Info.plist"; sourceTree = "<group>"; };
+		9F118DB716BB1C1D0057392C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F118DB916BB1C1D0057392C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F118DBB16BB1C1D0057392C /* WowCipa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WowCipa-Prefix.pch"; sourceTree = "<group>"; };
+		9F118DBC16BB1C1D0057392C /* WOWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WOWAppDelegate.h; sourceTree = "<group>"; };
+		9F118DBD16BB1C1D0057392C /* WOWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WOWAppDelegate.m; sourceTree = "<group>"; };
+		9F118DBF16BB1C1D0057392C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9F118DC116BB1C1D0057392C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9F118DC316BB1C1D0057392C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9F118DC616BB1C1D0057392C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9F118DC816BB1C1D0057392C /* WOWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WOWViewController.h; sourceTree = "<group>"; };
+		9F118DC916BB1C1D0057392C /* WOWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WOWViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F118DA616BB1C1D0057392C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F118DAE16BB1C1D0057392C /* UIKit.framework in Frameworks */,
+				9F118DB016BB1C1D0057392C /* Foundation.framework in Frameworks */,
+				9F118DB216BB1C1D0057392C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F118D9E16BB1C1D0057392C = {
+			isa = PBXGroup;
+			children = (
+				9F118DB316BB1C1D0057392C /* WowCipa */,
+				9F118DAC16BB1C1D0057392C /* Frameworks */,
+				9F118DAA16BB1C1D0057392C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F118DAA16BB1C1D0057392C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F118DA916BB1C1D0057392C /* WowCipa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F118DAC16BB1C1D0057392C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F118DAD16BB1C1D0057392C /* UIKit.framework */,
+				9F118DAF16BB1C1D0057392C /* Foundation.framework */,
+				9F118DB116BB1C1D0057392C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F118DB316BB1C1D0057392C /* WowCipa */ = {
+			isa = PBXGroup;
+			children = (
+				9F118DBC16BB1C1D0057392C /* WOWAppDelegate.h */,
+				9F118DBD16BB1C1D0057392C /* WOWAppDelegate.m */,
+				9F118DC516BB1C1D0057392C /* MainStoryboard.storyboard */,
+				9F118DC816BB1C1D0057392C /* WOWViewController.h */,
+				9F118DC916BB1C1D0057392C /* WOWViewController.m */,
+				9F118DB416BB1C1D0057392C /* Supporting Files */,
+			);
+			path = WowCipa;
+			sourceTree = "<group>";
+		};
+		9F118DB416BB1C1D0057392C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F118DB516BB1C1D0057392C /* WowCipa-Info.plist */,
+				9F118DB616BB1C1D0057392C /* InfoPlist.strings */,
+				9F118DB916BB1C1D0057392C /* main.m */,
+				9F118DBB16BB1C1D0057392C /* WowCipa-Prefix.pch */,
+				9F118DBF16BB1C1D0057392C /* Default.png */,
+				9F118DC116BB1C1D0057392C /* Default@2x.png */,
+				9F118DC316BB1C1D0057392C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F118DA816BB1C1D0057392C /* WowCipa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F118DCD16BB1C1D0057392C /* Build configuration list for PBXNativeTarget "WowCipa" */;
+			buildPhases = (
+				9F118DA516BB1C1D0057392C /* Sources */,
+				9F118DA616BB1C1D0057392C /* Frameworks */,
+				9F118DA716BB1C1D0057392C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WowCipa;
+			productName = WowCipa;
+			productReference = 9F118DA916BB1C1D0057392C /* WowCipa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F118DA016BB1C1D0057392C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WOW;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jan Szynal";
+			};
+			buildConfigurationList = 9F118DA316BB1C1D0057392C /* Build configuration list for PBXProject "WowCipa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F118D9E16BB1C1D0057392C;
+			productRefGroup = 9F118DAA16BB1C1D0057392C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F118DA816BB1C1D0057392C /* WowCipa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F118DA716BB1C1D0057392C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F118DB816BB1C1D0057392C /* InfoPlist.strings in Resources */,
+				9F118DC016BB1C1D0057392C /* Default.png in Resources */,
+				9F118DC216BB1C1D0057392C /* Default@2x.png in Resources */,
+				9F118DC416BB1C1D0057392C /* Default-568h@2x.png in Resources */,
+				9F118DC716BB1C1D0057392C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F118DA516BB1C1D0057392C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F118DBA16BB1C1D0057392C /* main.m in Sources */,
+				9F118DBE16BB1C1D0057392C /* WOWAppDelegate.m in Sources */,
+				9F118DCA16BB1C1D0057392C /* WOWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F118DB616BB1C1D0057392C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F118DB716BB1C1D0057392C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F118DC516BB1C1D0057392C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F118DC616BB1C1D0057392C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F118DCB16BB1C1D0057392C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F118DCC16BB1C1D0057392C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F118DCE16BB1C1D0057392C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WowCipa/WowCipa-Prefix.pch";
+				INFOPLIST_FILE = "WowCipa/WowCipa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F118DCF16BB1C1D0057392C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WowCipa/WowCipa-Prefix.pch";
+				INFOPLIST_FILE = "WowCipa/WowCipa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F118DA316BB1C1D0057392C /* Build configuration list for PBXProject "WowCipa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F118DCB16BB1C1D0057392C /* Debug */,
+				9F118DCC16BB1C1D0057392C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F118DCD16BB1C1D0057392C /* Build configuration list for PBXNativeTarget "WowCipa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F118DCE16BB1C1D0057392C /* Debug */,
+				9F118DCF16BB1C1D0057392C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F118DA016BB1C1D0057392C /* Project object */;
+}

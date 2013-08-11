@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F8143AF16A1C2A700682123 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8143AE16A1C2A700682123 /* UIKit.framework */; };
+		9F8143B116A1C2A700682123 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8143B016A1C2A700682123 /* Foundation.framework */; };
+		9F8143B316A1C2A700682123 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8143B216A1C2A700682123 /* CoreGraphics.framework */; };
+		9F8143B916A1C2A700682123 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F8143B716A1C2A700682123 /* InfoPlist.strings */; };
+		9F8143BB16A1C2A700682123 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8143BA16A1C2A700682123 /* main.m */; };
+		9F8143BF16A1C2A700682123 /* CSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8143BE16A1C2A700682123 /* CSAppDelegate.m */; };
+		9F8143C116A1C2A700682123 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8143C016A1C2A700682123 /* Default.png */; };
+		9F8143C316A1C2A700682123 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8143C216A1C2A700682123 /* Default@2x.png */; };
+		9F8143C516A1C2A700682123 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8143C416A1C2A700682123 /* Default-568h@2x.png */; };
+		9F8143C816A1C2A700682123 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8143C616A1C2A700682123 /* MainStoryboard.storyboard */; };
+		9F8143CB16A1C2A700682123 /* CSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8143CA16A1C2A700682123 /* CSViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F8143AA16A1C2A700682123 /* Coorshare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coorshare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8143AE16A1C2A700682123 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F8143B016A1C2A700682123 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F8143B216A1C2A700682123 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F8143B616A1C2A700682123 /* Coorshare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Coorshare-Info.plist"; sourceTree = "<group>"; };
+		9F8143B816A1C2A700682123 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F8143BA16A1C2A700682123 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F8143BC16A1C2A700682123 /* Coorshare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Coorshare-Prefix.pch"; sourceTree = "<group>"; };
+		9F8143BD16A1C2A700682123 /* CSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSAppDelegate.h; sourceTree = "<group>"; };
+		9F8143BE16A1C2A700682123 /* CSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegate.m; sourceTree = "<group>"; };
+		9F8143C016A1C2A700682123 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9F8143C216A1C2A700682123 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9F8143C416A1C2A700682123 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9F8143C716A1C2A700682123 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9F8143C916A1C2A700682123 /* CSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSViewController.h; sourceTree = "<group>"; };
+		9F8143CA16A1C2A700682123 /* CSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F8143A716A1C2A700682123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8143AF16A1C2A700682123 /* UIKit.framework in Frameworks */,
+				9F8143B116A1C2A700682123 /* Foundation.framework in Frameworks */,
+				9F8143B316A1C2A700682123 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F81439F16A1C2A700682123 = {
+			isa = PBXGroup;
+			children = (
+				9F8143B416A1C2A700682123 /* Coorshare */,
+				9F8143AD16A1C2A700682123 /* Frameworks */,
+				9F8143AB16A1C2A700682123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F8143AB16A1C2A700682123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F8143AA16A1C2A700682123 /* Coorshare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F8143AD16A1C2A700682123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F8143AE16A1C2A700682123 /* UIKit.framework */,
+				9F8143B016A1C2A700682123 /* Foundation.framework */,
+				9F8143B216A1C2A700682123 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F8143B416A1C2A700682123 /* Coorshare */ = {
+			isa = PBXGroup;
+			children = (
+				9F8143BD16A1C2A700682123 /* CSAppDelegate.h */,
+				9F8143BE16A1C2A700682123 /* CSAppDelegate.m */,
+				9F8143C616A1C2A700682123 /* MainStoryboard.storyboard */,
+				9F8143C916A1C2A700682123 /* CSViewController.h */,
+				9F8143CA16A1C2A700682123 /* CSViewController.m */,
+				9F8143B516A1C2A700682123 /* Supporting Files */,
+			);
+			path = Coorshare;
+			sourceTree = "<group>";
+		};
+		9F8143B516A1C2A700682123 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F8143B616A1C2A700682123 /* Coorshare-Info.plist */,
+				9F8143B716A1C2A700682123 /* InfoPlist.strings */,
+				9F8143BA16A1C2A700682123 /* main.m */,
+				9F8143BC16A1C2A700682123 /* Coorshare-Prefix.pch */,
+				9F8143C016A1C2A700682123 /* Default.png */,
+				9F8143C216A1C2A700682123 /* Default@2x.png */,
+				9F8143C416A1C2A700682123 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F8143A916A1C2A700682123 /* Coorshare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8143CE16A1C2A700682123 /* Build configuration list for PBXNativeTarget "Coorshare" */;
+			buildPhases = (
+				9F8143A616A1C2A700682123 /* Sources */,
+				9F8143A716A1C2A700682123 /* Frameworks */,
+				9F8143A816A1C2A700682123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coorshare;
+			productName = Coorshare;
+			productReference = 9F8143AA16A1C2A700682123 /* Coorshare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F8143A116A1C2A700682123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jan Szynal";
+			};
+			buildConfigurationList = 9F8143A416A1C2A700682123 /* Build configuration list for PBXProject "Coorshare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F81439F16A1C2A700682123;
+			productRefGroup = 9F8143AB16A1C2A700682123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F8143A916A1C2A700682123 /* Coorshare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F8143A816A1C2A700682123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8143B916A1C2A700682123 /* InfoPlist.strings in Resources */,
+				9F8143C116A1C2A700682123 /* Default.png in Resources */,
+				9F8143C316A1C2A700682123 /* Default@2x.png in Resources */,
+				9F8143C516A1C2A700682123 /* Default-568h@2x.png in Resources */,
+				9F8143C816A1C2A700682123 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F8143A616A1C2A700682123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8143BB16A1C2A700682123 /* main.m in Sources */,
+				9F8143BF16A1C2A700682123 /* CSAppDelegate.m in Sources */,
+				9F8143CB16A1C2A700682123 /* CSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F8143B716A1C2A700682123 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8143B816A1C2A700682123 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F8143C616A1C2A700682123 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8143C716A1C2A700682123 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F8143CC16A1C2A700682123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F8143CD16A1C2A700682123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F8143CF16A1C2A700682123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coorshare/Coorshare-Prefix.pch";
+				INFOPLIST_FILE = "Coorshare/Coorshare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F8143D016A1C2A700682123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coorshare/Coorshare-Prefix.pch";
+				INFOPLIST_FILE = "Coorshare/Coorshare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F8143A416A1C2A700682123 /* Build configuration list for PBXProject "Coorshare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8143CC16A1C2A700682123 /* Debug */,
+				9F8143CD16A1C2A700682123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8143CE16A1C2A700682123 /* Build configuration list for PBXNativeTarget "Coorshare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8143CF16A1C2A700682123 /* Debug */,
+				9F8143D016A1C2A700682123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F8143A116A1C2A700682123 /* Project object */;
+}

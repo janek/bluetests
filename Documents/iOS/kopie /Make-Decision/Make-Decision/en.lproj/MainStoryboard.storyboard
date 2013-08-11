@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="12B19" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
+    </dependencies>
+    <scenes>
+        <!--Settings View Controller-->
+        <scene sceneID="LxN-QP-i1N">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fXv-nz-JLb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="1gk-xq-Mip" customClass="MDSettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rNA-Ev-s1n">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="SETTINGS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="cfJ-s9-L0H">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.700226814516129" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="48"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="Uwm-tI-rtc" userLabel="SwitchPluto">
+                                <rect key="frame" x="231" y="100" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="switchPlutoAction:" destination="1gk-xq-Mip" eventType="valueChanged" id="yYB-3h-NcL"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="r1U-iY-WeK" userLabel="SwitchSounds">
+                                <rect key="frame" x="231" y="158" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="switchSoundsAction:" destination="1gk-xq-Mip" eventType="valueChanged" id="MpD-4V-RDk"/>
+                                </connections>
+                            </switch>
+                            <pickerView contentMode="scaleToFill" id="q1f-ns-25n">
+                                <rect key="frame" x="10" y="211" width="300" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="1gk-xq-Mip" id="edL-8n-zd1"/>
+                                    <outlet property="delegate" destination="1gk-xq-Mip" id="xgc-xa-7Yg"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.852570564516129" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="languagePicker" destination="rNA-Ev-s1n" id="pMW-f5-91J"/>
+                        <outlet property="switchPictures" destination="Uwm-tI-rtc" id="nFg-3h-hGB"/>
+                        <outlet property="switchSounds" destination="r1U-iY-WeK" id="uw6-Sl-63e"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-348" y="-1371"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="8zY-4x-DN1">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q7m-c1-wsY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController hidesBottomBarWhenPushed="YES" id="uRG-tI-N6Y" customClass="MDSettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FMc-wc-lNS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Pluto.png" id="VpM-29-ymb">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="uuu-fh-XYQ" userLabel="SwitchPluto">
+                                <rect key="frame" x="30" y="413" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="switchPlutoAction:" destination="uRG-tI-N6Y" eventType="valueChanged" id="hgV-On-pHB"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="switchPictures" destination="uuu-fh-XYQ" id="HqQ-HZ-aPx"/>
+                    </connections>
+                </viewController>
+                <swipeGestureRecognizer direction="up" id="Qbn-Is-fo6"/>
+            </objects>
+            <point key="canvasLocation" x="-886" y="-1012"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <viewController id="2" customClass="MDViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="amz-dS-uGk" userLabel="backgroundView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <view opaque="NO" contentMode="scaleToFill" id="xtQ-ik-ZDv" userLabel="answerView" customClass="MDOdpowiedz">
+                                <rect key="frame" x="0.0" y="115" width="320" height="230"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </view>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="k0B-wi-fbh" userLabel="settingsBut">
+                                <rect key="frame" x="266" y="426" width="54" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="settings.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1gk-xq-Mip" kind="modal" modalTransitionStyle="flipHorizontal" id="lV1-JO-RKj"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="CaZ-wA-zYv" userLabel="noiseView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="answer" destination="xtQ-ik-ZDv" id="yj7-W7-JtB"/>
+                        <outlet property="background" destination="amz-dS-uGk" id="IGJ-hs-h3N"/>
+                        <outlet property="noise" destination="CaZ-wA-zYv" id="iNb-n9-rjM"/>
+                        <outlet property="settingsButton" destination="k0B-wi-fbh" id="WF7-68-EfC"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-343" y="-535"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Pluto.png" width="640" height="960"/>
+        <image name="settings.png" width="200" height="200"/>
+    </resources>
+    <classes>
+        <class className="MDOdpowiedz" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDOdpowiedz.h"/>
+        </class>
+        <class className="MDSettingsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDSettingsViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="switchPlutoAction:" candidateClass="UISwitch"/>
+                <relationship kind="action" name="switchSoundsAction:" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="languagePicker" candidateClass="UIPickerView"/>
+                <relationship kind="outlet" name="switchPluto" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="switchSounds" candidateClass="UISwitch"/>
+            </relationships>
+        </class>
+        <class className="MDViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="answer" candidateClass="MDOdpowiedz"/>
+                <relationship kind="outlet" name="background" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="noise" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="settingsButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

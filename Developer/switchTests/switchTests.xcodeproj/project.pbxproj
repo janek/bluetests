@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FDA431D15FA9363002E077A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDA431C15FA9363002E077A /* UIKit.framework */; };
+		9FDA431F15FA9363002E077A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDA431E15FA9363002E077A /* Foundation.framework */; };
+		9FDA432115FA9363002E077A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDA432015FA9363002E077A /* CoreGraphics.framework */; };
+		9FDA432715FA9363002E077A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FDA432515FA9363002E077A /* InfoPlist.strings */; };
+		9FDA432915FA9363002E077A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA432815FA9363002E077A /* main.m */; };
+		9FDA432D15FA9363002E077A /* MDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA432C15FA9363002E077A /* MDAppDelegate.m */; };
+		9FDA433015FA9363002E077A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDA432E15FA9363002E077A /* MainStoryboard.storyboard */; };
+		9FDA433315FA9363002E077A /* MDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA433215FA9363002E077A /* MDViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9FDA431815FA9363002E077A /* switchTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = switchTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDA431C15FA9363002E077A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9FDA431E15FA9363002E077A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9FDA432015FA9363002E077A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9FDA432415FA9363002E077A /* switchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "switchTests-Info.plist"; sourceTree = "<group>"; };
+		9FDA432615FA9363002E077A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FDA432815FA9363002E077A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FDA432A15FA9363002E077A /* switchTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "switchTests-Prefix.pch"; sourceTree = "<group>"; };
+		9FDA432B15FA9363002E077A /* MDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAppDelegate.h; sourceTree = "<group>"; };
+		9FDA432C15FA9363002E077A /* MDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppDelegate.m; sourceTree = "<group>"; };
+		9FDA432F15FA9363002E077A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9FDA433115FA9363002E077A /* MDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDViewController.h; sourceTree = "<group>"; };
+		9FDA433215FA9363002E077A /* MDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FDA431515FA9363002E077A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDA431D15FA9363002E077A /* UIKit.framework in Frameworks */,
+				9FDA431F15FA9363002E077A /* Foundation.framework in Frameworks */,
+				9FDA432115FA9363002E077A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FDA430D15FA9363002E077A = {
+			isa = PBXGroup;
+			children = (
+				9FDA432215FA9363002E077A /* switchTests */,
+				9FDA431B15FA9363002E077A /* Frameworks */,
+				9FDA431915FA9363002E077A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FDA431915FA9363002E077A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FDA431815FA9363002E077A /* switchTests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FDA431B15FA9363002E077A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FDA431C15FA9363002E077A /* UIKit.framework */,
+				9FDA431E15FA9363002E077A /* Foundation.framework */,
+				9FDA432015FA9363002E077A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FDA432215FA9363002E077A /* switchTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FDA432B15FA9363002E077A /* MDAppDelegate.h */,
+				9FDA432C15FA9363002E077A /* MDAppDelegate.m */,
+				9FDA432E15FA9363002E077A /* MainStoryboard.storyboard */,
+				9FDA433115FA9363002E077A /* MDViewController.h */,
+				9FDA433215FA9363002E077A /* MDViewController.m */,
+				9FDA432315FA9363002E077A /* Supporting Files */,
+			);
+			path = switchTests;
+			sourceTree = "<group>";
+		};
+		9FDA432315FA9363002E077A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FDA432415FA9363002E077A /* switchTests-Info.plist */,
+				9FDA432515FA9363002E077A /* InfoPlist.strings */,
+				9FDA432815FA9363002E077A /* main.m */,
+				9FDA432A15FA9363002E077A /* switchTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FDA431715FA9363002E077A /* switchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FDA433615FA9363002E077A /* Build configuration list for PBXNativeTarget "switchTests" */;
+			buildPhases = (
+				9FDA431415FA9363002E077A /* Sources */,
+				9FDA431515FA9363002E077A /* Frameworks */,
+				9FDA431615FA9363002E077A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = switchTests;
+			productName = switchTests;
+			productReference = 9FDA431815FA9363002E077A /* switchTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FDA430F15FA9363002E077A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jan Szynal";
+			};
+			buildConfigurationList = 9FDA431215FA9363002E077A /* Build configuration list for PBXProject "switchTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FDA430D15FA9363002E077A;
+			productRefGroup = 9FDA431915FA9363002E077A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FDA431715FA9363002E077A /* switchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FDA431615FA9363002E077A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDA432715FA9363002E077A /* InfoPlist.strings in Resources */,
+				9FDA433015FA9363002E077A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FDA431415FA9363002E077A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDA432915FA9363002E077A /* main.m in Sources */,
+				9FDA432D15FA9363002E077A /* MDAppDelegate.m in Sources */,
+				9FDA433315FA9363002E077A /* MDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FDA432515FA9363002E077A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FDA432615FA9363002E077A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9FDA432E15FA9363002E077A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FDA432F15FA9363002E077A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FDA433415FA9363002E077A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FDA433515FA9363002E077A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FDA433715FA9363002E077A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "switchTests/switchTests-Prefix.pch";
+				INFOPLIST_FILE = "switchTests/switchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9FDA433815FA9363002E077A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "switchTests/switchTests-Prefix.pch";
+				INFOPLIST_FILE = "switchTests/switchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FDA431215FA9363002E077A /* Build configuration list for PBXProject "switchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDA433415FA9363002E077A /* Debug */,
+				9FDA433515FA9363002E077A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FDA433615FA9363002E077A /* Build configuration list for PBXNativeTarget "switchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDA433715FA9363002E077A /* Debug */,
+				9FDA433815FA9363002E077A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FDA430F15FA9363002E077A /* Project object */;
+}

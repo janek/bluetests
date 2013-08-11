@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Make-Decision
+
+  Created by Jan Szynal on 21.08.2012.
+  Copyright (c) 2012 Michał Ciesielski. All rights reserved.
+*/
+/*yes answer*/
+"YES"="JA";
+/*no answer*/
+"NO"="NEIN";
